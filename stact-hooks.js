@@ -1,11 +1,11 @@
-var Stact = require('stact');
+var createStact = require('stact');
 
 function createHooks (options) {
   var stacks = {};
 
   return function (name) {
     if (!stacks[name]) {
-      stacks[name] = new Stact(options);
+      stacks[name] = createStact(options);
     }
     return stacks[name];
   };
