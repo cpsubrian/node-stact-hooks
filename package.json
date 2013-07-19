@@ -1,0 +1,28 @@
+{
+  "name": "stact-hooks",
+  "version": "0.0.0",
+  "description": "Manage a registry of function stacks and run them.",
+  "main": "stact-hooks.js",
+  "dependencies": {
+    "stact": "~0.0.1"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cpsubrian/node-stact-hooks.git"
+  },
+  "homepage": "https://github.com/cpsubrian/node-stact-hooks",
+  "keywords": [
+    "flow",
+    "control",
+    "stack",
+    "hooks"
+  ],
+  "author": "Brian Link <cpsubrian@gmail.com>",
+  "license": "MIT"
+}
