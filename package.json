@@ -1,6 +1,6 @@
 {
   "name": "stact-hooks",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Manage a registry of function stacks and run them.",
   "main": "stact-hooks.js",
   "dependencies": {
