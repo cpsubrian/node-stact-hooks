@@ -3,7 +3,7 @@ var createStact = require('stact');
 function createHooks (options) {
   var stacks = {};
 
-  return function (name) {
+  return function getStact (name) {
     if (!stacks[name]) {
       stacks[name] = createStact(options);
     }
